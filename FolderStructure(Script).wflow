@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>523</string>
+	<key>AMApplicationVersion</key>
+	<string>2.10</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.2.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>defaultLocation</key>
+					<dict>
+						<key>isPathPopUp</key>
+						<true/>
+						<key>variableUUIDsInMenu</key>
+						<array/>
+					</dict>
+					<key>granularity</key>
+					<dict/>
+					<key>multipleSelection</key>
+					<dict/>
+					<key>promptMessage</key>
+					<dict>
+						<key>tokenizedValue</key>
+						<array>
+							<string>Choose your target folder:</string>
+						</array>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Ask for Finder Items.action</string>
+				<key>ActionName</key>
+				<string>Finder項目の選択を求める</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>defaultLocation</key>
+					<string>~/Desktop</string>
+					<key>granularity</key>
+					<integer>1</integer>
+					<key>multipleSelection</key>
+					<false/>
+					<key>promptMessage</key>
+					<string>Choose your target folder:</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.AskForFinderItems</string>
+				<key>CFBundleVersion</key>
+				<string>1.2.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryFilesAndFolders</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMAskForFinderItemsAction</string>
+				<key>InputUUID</key>
+				<string>6D31ADAB-87AB-44E4-98C8-7B00A19DD30D</string>
+				<key>Keywords</key>
+				<array>
+					<string>検索</string>
+					<string>項目</string>
+					<string>ファイル</string>
+					<string>フォルダ</string>
+					<string>確認</string>
+					<string>選択</string>
+					<string>プロンプト</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>55559F89-426C-405B-B832-E5B917E05EF6</string>
+				<key>UUID</key>
+				<string>B3014AFB-11F0-496E-977C-A5AC614BF93A</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>granularity</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>multipleSelection</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string>~/Desktop</string>
+						<key>name</key>
+						<string>defaultLocation</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string>Finder項目を選択:</string>
+						<key>name</key>
+						<string>promptMessage</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<integer>1</integer>
+				<key>location</key>
+				<string>489.500000:221.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Ask for Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.0.3</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<dict/>
+					<key>CheckedForUserDefaultShell</key>
+					<dict/>
+					<key>inputMethod</key>
+					<dict/>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
+				<key>ActionName</key>
+				<string>シェルスクリプトを実行</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>#!/bin/bash
+
+# Prompt the user to select a folder
+selected_folder="$1"
+if [ -z "$selected_folder" ]; then
+    echo "No folder selected."
+    exit 1
+fi
+
+# Define the destination directories
+pj_dir="$selected_folder/1_PJ"
+video_dir="$selected_folder/2_動画"
+image_dir="$selected_folder/3_画像"
+mg_dir="$selected_folder/4_MG"
+bgm_dir="$selected_folder/5_BGM"
+sfx_dir="$selected_folder/6_SFX"
+export_dir="$selected_folder/7_書き出し"
+video_original_dir="$video_dir/1_元データ"
+video_proxy_dir="$video_dir/2_プロキシ"
+mg_ae_dir="$mg_dir/1_AEプリセット"
+mg_mov_dir="$mg_dir/2_MOV"
+mg_mogrt_dir="$mg_dir/3_Mogrt"
+mg_pr_dir="$mg_dir/4_PRエフェクト"
+
+# Create directories if they do not exist
+mkdir -p "$pj_dir" "$video_dir" "$image_dir" "$mg_dir" "$bgm_dir" "$sfx_dir" "$export_dir"
+mkdir -p "$video_original_dir" "$video_proxy_dir"
+mkdir -p "$mg_ae_dir" "$mg_mov_dir" "$mg_mogrt_dir" "$mg_pr_dir"
+
+# Move and rename files and directories based on their format
+for source_path in "$selected_folder"/*; do
+    if [ -f "$source_path" ] || [ -d "$source_path" ]; then
+        filename=$(basename "$source_path")
+        extension="${filename##*.}"
+        if [ -f "$source_path" ]; then
+            base_name="${filename%.*}" # Strip the extension for files
+        else
+            base_name="$filename" # Use the whole name for directories
+        fi
+        first_number=$(echo "$filename" | grep -oE '^[0-9]+')
+        
+        if [[ "$filename" =~ ^4-[1-4] ]]; then
+            suffix=$(echo "$filename" | cut -d'-' -f2 | grep -o '^[1-4]')
+            clean_name="${filename#*-* }" # Strip prefix like '4-1'
+            case $suffix in
+                1) target_dir="$mg_ae_dir" ;;
+                2) target_dir="$mg_mov_dir" ;;
+                3) target_dir="$mg_mogrt_dir" ;;
+                4) target_dir="$mg_pr_dir" ;;
+                *) echo "No matching directory for MG subcategory in file $filename"; continue ;;
+            esac
+            count=$(ls -1q "$target_dir" | wc -l)
+            ((count++))
+            new_name="($count)$first_number-$suffix. $clean_name"
+        else
+            clean_name="${filename#*. }" # Strip the first number and period from the original filename
+            case $first_number in
+                1) target_dir="$pj_dir" ;;
+                2) target_dir="$video_dir" ;;
+                3) target_dir="$image_dir" ;;
+                4) target_dir="$mg_dir" ;;
+                5) target_dir="$bgm_dir" ;;
+                6) target_dir="$sfx_dir" ;;
+                7) target_dir="$export_dir" ;;
+                *) echo "No matching directory for file $filename"; continue ;;
+            esac
+            count=$(ls -1q "$target_dir" | wc -l)
+            ((count++))
+            new_name="($count)$first_number. $clean_name"
+        fi
+        
+        # Move the file or directory with the new name
+        mv "$source_path" "$target_dir/$new_name"
+    fi
+done
+</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>1</integer>
+					<key>shell</key>
+					<string>/bin/bash</string>
+					<key>source</key>
+					<string></string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.RunShellScript</string>
+				<key>CFBundleVersion</key>
+				<string>2.0.3</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunShellScriptAction</string>
+				<key>InputUUID</key>
+				<string>A2D4D474-4975-478F-AD5D-80CACE2190B6</string>
+				<key>Keywords</key>
+				<array>
+					<string>シェル</string>
+					<string>スクリプト</string>
+					<string>コマンド</string>
+					<string>実行</string>
+					<string>UNIX</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>145B6AA8-2F61-4019-AF4D-790034D138AC</string>
+				<key>UUID</key>
+				<string>07F9A5E6-B60C-44E0-9A96-D7A93C5098A9</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>inputMethod</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>CheckedForUserDefaultShell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>COMMAND_STRING</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>/bin/sh</string>
+						<key>name</key>
+						<string>shell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<integer>1</integer>
+				<key>location</key>
+				<string>489.500000:745.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict>
+		<key>972E8AD8-8CF3-47FA-86A6-142DF0107369</key>
+		<dict>
+			<key>from</key>
+			<string>B3014AFB-11F0-496E-977C-A5AC614BF93A - B3014AFB-11F0-496E-977C-A5AC614BF93A</string>
+			<key>to</key>
+			<string>07F9A5E6-B60C-44E0-9A96-D7A93C5098A9 - 07F9A5E6-B60C-44E0-9A96-D7A93C5098A9</string>
+		</dict>
+	</dict>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.application</string>
+	</dict>
+</dict>
+</plist>
